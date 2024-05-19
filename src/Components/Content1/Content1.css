@@ -1,0 +1,21 @@
+.content1{
+   background: #e7526b url('../../assets/content1.png');
+   height: 50vh;
+   background-position: 50% 80%;
+   background-size: 150%;
+   margin-top: -30px;
+   
+
+}
+.content{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content1 .btn
+{
+    color:#e7526b
+}
+

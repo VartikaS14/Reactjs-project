@@ -1,0 +1,18 @@
+.content-container{
+    width: 550px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.content-container .content-title
+{
+    font-size: 35px;
+line-height: 60px;
+color: #ffffff;
+}
+.content-container .content-description
+{
+    font-size: 15px;
+line-height: 26px;
+color: #ffffff;
+}
