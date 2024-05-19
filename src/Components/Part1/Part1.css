@@ -1,0 +1,35 @@
+.part{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 56vh;
+    background-color: white;
+    gap: 10%;
+}
+.part .imag{
+    width: 40%;
+}
+.part .imag img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.part .cont{
+    margin-left: 10%;
+    padding-top: 80px;
+    width: 40%;
+}
+.part .cont h1{font-size: 15px;
+    line-height: 26px;
+    text-transform: uppercase;}
+.part .cont .p1{
+    font-size: 15px;
+line-height: 28px;
+padding-bottom: 20px;
+}
+.part .cont .p2{
+    font-size: 15px;
+line-height: 20px;
+
+}
