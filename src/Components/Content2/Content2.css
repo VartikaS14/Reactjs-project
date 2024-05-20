@@ -1,7 +1,7 @@
 .content2{
     background:  url('../../assets/content2.png');
     position: relative;
-        height: 50vh;
+    height: 50vh;
     background-position: 50% 80%;
     background-size: 150%;
     margin-top: -30px;
@@ -15,17 +15,25 @@
     height: 100%; /* Adjust this value to control the size of the overlay */
     background: #8824cd;
     opacity: 0.5;
+   
 }
  .content2 .content{
      display: flex;
      flex-direction: column;
      justify-content: center;
      align-items: center;
+     color: #fff;
+    
  }
- .content2 .btn
+ .content2 .btn1
  {
+    z-index: 10;
      background-color:#8824cd;
      color: #fff;
+ }
+ .content2 .content p{
+    z-index: 10;
+    font-size: 13px;
  }
  
  

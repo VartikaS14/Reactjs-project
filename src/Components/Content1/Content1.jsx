@@ -1,7 +1,7 @@
 import React from 'react'
 import './Content1.css'
 import { Content } from "../../Components/Content/Content";
-
+import Button from '../Button/Button'
 
 const Content1 = () => {
   return (
@@ -12,7 +12,7 @@ const Content1 = () => {
           title="A Fantastic Heading"
           description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna "
         />
-         <button className='btn'>Get Started Today</button>
+         <Button/>
       
     </div>
     </div>

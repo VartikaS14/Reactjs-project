@@ -1,6 +1,7 @@
 import React from 'react'
 import './Content2.css'
 import { Content } from "../../Components/Content/Content";
+import Button from '../Button/Button'
 
 const Content2 = () => {
   return (
@@ -8,10 +9,11 @@ const Content2 = () => {
        
          <div className='content'>
          <Content
-          title="A Fantastic Heading"
+          title="Experience the Rush today"
           description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna "
         />
-         <button className='btn'>Get Started Today</button>
+         <Button/>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
       
     </div>
     </div>
