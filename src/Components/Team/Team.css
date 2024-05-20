@@ -1,0 +1,70 @@
+.team {
+    position: relative;
+    height: 80vh;
+    background-image: url('../../assets/back.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 2% 0%;
+
+}
+
+.team::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50%; /* Adjust this value to control the size of the overlay */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+}
+.team .team-c{
+    width: 40%;
+    padding-left: 5%;
+}
+.team .team-c button{
+  
+width: 135px;
+height: 35px;
+border-radius: 17px;
+background-color: rgba(129,180,65,0);
+border: 2px solid #ffffff;
+color: #ffffff;
+font-size: 16px;
+}
+.team .team-c h1{
+    font-size: 40px;
+line-height: 50px;
+color: #ffffff;
+}
+.team .team-c .name2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+   
+
+}
+.team .team-c .name2 .img2{
+    width: 50%;
+    width: 45px;
+height: 45px;
+border-radius: 40px;
+background:url('../../assets/name.png');
+background-position: center;
+background-size: cover;
+}
+.team .team-c .name2 .c
+{
+    padding-left: 15px;
+    width: 50%;
+    font-size: 13px;
+color: #ffffff;
+}
+
+
+
+
+
