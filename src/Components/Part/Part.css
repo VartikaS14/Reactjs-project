@@ -1,33 +1,33 @@
-.parts{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    height: 60vh;
-    background-color: white;
+.parts {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 60vh;
+  background-color: white;
 }
-.parts .imag{
-    width: 40%;
+.parts .imag {
+  width: 40%;
 }
-.parts .imag img
-{
-    width: 100%;
-    
-    object-fit: cover;
-}
-.parts .cont{
-    padding-top: 80px;
-    width: 40%;
-}
-.parts .cont h1{font-size: 15px;
-    line-height: 26px;
-    text-transform: uppercase;}
-.parts .cont .p1{
-    font-size: 15px;
-line-height: 28px;
-padding-bottom: 20px;
-}
-.parts .cont .p2{
-    font-size: 15px;
-line-height: 20px;
+.parts .imag img {
+  width: 100%;
 
+  object-fit: cover;
+}
+.parts .cont {
+  padding-top: 80px;
+  width: 40%;
+}
+.parts .cont h1 {
+  font-size: 15px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+.parts .cont .p1 {
+  font-size: 15px;
+  line-height: 28px;
+  padding-bottom: 20px;
+}
+.parts .cont .p2 {
+  font-size: 15px;
+  line-height: 20px;
 }

@@ -1,24 +1,19 @@
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-   
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color: #2e3b4e;
-    font-family: "Open Sans";
+body {
+  background-color: hsl(216, 26%, 24%);
+  font-family: "Open Sans";
 }
-a
-{
-    text-decoration: none;
-    color: inherit;
-    line-height: 1;
-    cursor: pointer;
+a {
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
 }
-.container{
-    padding-left: 10%;
-    padding-right: 5%;
+.container {
+  padding-left: 10%;
+  padding-right: 5%;
 }
-
-

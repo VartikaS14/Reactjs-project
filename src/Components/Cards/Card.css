@@ -1,22 +1,19 @@
 .card-container {
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    margin: 0.5rem;
-    height: fit-content;
-    
-  }
-  .card-title {
-    margin: 0.5rem 5%;
-    font-size: 15px;
-line-height: 26px;
-text-transform: uppercase;
-  }
-  
-  .card-description {
-    margin: 0.5rem 5%;
-    font-size: 15px;
-line-height: 26px;
-    
-  }
-  
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+  height: fit-content;
+}
+.card-title {
+  margin: 0.5rem 5%;
+  font-size: 15px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.card-description {
+  margin: 0.5rem 5%;
+  font-size: 15px;
+  line-height: 26px;
+}

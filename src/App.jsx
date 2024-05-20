@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Components/Navbar/Navbar";
-import Hero from "./Components/Hero/Hero"
+import Hero from "./Components/Hero/Hero";
 import About from "./Components/About/About";
 import Content1 from "./Components/Content1/Content1";
 import Part from "./Components/Part/Part";
@@ -10,27 +10,21 @@ import Team from "./Components/Team/Team";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 
-const App =() =>
-  {
-    return (
-      <div>
-        <Navbar/>
-        <Hero/>
-        <About/>
-        <Content1/>
-        <Part/>
-        <Content2/>
-        <Team/>
-        <Part1/>
-        <Contact/>
-        <Footer/>
+const App = () => {
+  return (
+    <div>
+      <Navbar />
+      <Hero />
+      <About />
+      <Content1 />
+      <Part />
+      <Content2 />
+      <Team />
+      <Part1 />
+      <Contact />
+      <Footer />
+    </div>
+  );
+};
 
-  
-        
-       
-
-      </div>
-    )
-  }
-
-  export default App
+export default App;

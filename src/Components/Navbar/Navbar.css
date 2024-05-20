@@ -47,3 +47,8 @@ nav ul li{
     padding: 0;
   }
 
+  .dark-nav
+  {
+    background: purple;
+    transition: 0.5s;
+  }
