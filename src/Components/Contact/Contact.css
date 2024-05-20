@@ -1,0 +1,23 @@
+.contacts{
+    padding: 6% 10%;
+
+    height: 50vh;
+    background-color: #e7526b;
+    color: #ffffff;
+
+}
+.contacts .contacts-c{
+    width: 50%;
+}
+.contacts .contacts-c h1{
+    font-size: 15px;
+line-height: 26px;
+text-transform: uppercase;
+font-weight: 700;
+}
+.contacts .contacts-c .p1{
+    font-size: 15px;
+    line-height: 26px;
+    padding-bottom: 15px;
+}
+

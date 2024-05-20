@@ -7,6 +7,8 @@ import Part from "./Components/Part/Part";
 import Content2 from "./Components/Content2/Content2";
 import Part1 from "./Components/Part1/Part1";
 import Team from "./Components/Team/Team";
+import Contact from "./Components/Contact/Contact";
+
 const App =() =>
   {
     return (
@@ -19,6 +21,9 @@ const App =() =>
         <Content2/>
         <Team/>
         <Part1/>
+        <Contact/>
+        
+  
         
        
 
