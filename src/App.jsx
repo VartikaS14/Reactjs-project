@@ -8,6 +8,7 @@ import Content2 from "./Components/Content2/Content2";
 import Part1 from "./Components/Part1/Part1";
 import Team from "./Components/Team/Team";
 import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
 
 const App =() =>
   {
@@ -22,7 +23,8 @@ const App =() =>
         <Team/>
         <Part1/>
         <Contact/>
-        
+        <Footer/>
+
   
         
        
