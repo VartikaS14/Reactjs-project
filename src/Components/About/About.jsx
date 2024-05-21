@@ -5,7 +5,7 @@ import shape from '../../assets/Shape1.png'
 const About = () => {
   return (
     <div>
-      <div className="about">
+      <div className="about"id='about' >
          <Card
           title="A Fantastic Heading"
           description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna "

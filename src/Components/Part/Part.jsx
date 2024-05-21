@@ -4,7 +4,7 @@ import part1 from "../../assets/part1.png";
 
 const Part = () => {
   return (
-    <div className="parts">
+    <div className="parts" id="part">
       <div className="imag">
         {" "}
         <img src={part1} />{" "}

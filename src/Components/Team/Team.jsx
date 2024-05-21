@@ -3,7 +3,7 @@ import "./Team.css";
 
 const Team = () => {
   return (
-    <div className="team">
+    <div className="team" id="team">
       <div className="team-c">
         <button>Photography</button>
         <h1>Lorem ipsum dolor sit amet consectetur.</h1>
