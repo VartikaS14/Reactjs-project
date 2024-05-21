@@ -7,22 +7,68 @@
   color: white;
   display: flex;
 }
+
 .hero-text {
   margin-top: 23%;
   text-align: right;
   max-width: 500px;
 }
+
 .hero-text h1 {
   font-size: 50px;
   line-height: 70px;
   font-weight: 400;
   font-family: "Open Sans";
 }
+
 .hero-text .btn1 {
   background-color: #8824cd;
-  
 }
+
 .hero-text p {
   font-size: 13px;
   line-height: 30px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero-text {
+    margin-top: 10%;
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  
+  .hero-text h1 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  
+  .hero-text p {
+    font-size: 12px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 962px) {
+  .hero-text {
+    margin-top: 40%;
+    max-width: 80%;
+  }
+
+  .hero-text h1 {
+    font-size: 45px;
+    line-height: 65px;
+  }
+
+  .hero-text p {
+    font-size: 12px;
+    line-height: 26px;
+  }
 }
