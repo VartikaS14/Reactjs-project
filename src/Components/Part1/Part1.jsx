@@ -20,8 +20,7 @@ const Part1 = () => {
         </p>
       </div>
       <div className="imag">
-        {" "}
-        <img src={part2} />{" "}
+        <img src={part2} />
       </div>
     </div>
   );

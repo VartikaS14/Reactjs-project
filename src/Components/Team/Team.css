@@ -62,3 +62,70 @@
   font-size: 13px;
   color: #ffffff;
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .team {
+    
+    padding: 5% 2%;
+  }
+
+  .team .team-c {
+    width: 90%;
+    padding-left: 5%;
+    text-align: center;
+  }
+
+  .team .team-c button {
+    width: 50%;
+    height: 40px;
+    margin-top: 10px;
+  }
+
+  .team .team-c h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .team .team-c .name2 .img2 {
+    width: 35px;
+    height: 35px;
+  }
+
+  .team .team-c .name2 .c {
+    width: auto;
+    padding-left: 10px;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 962px) {
+  .team {
+    
+    padding: 5% 2%;
+  }
+
+  .team .team-c {
+    width: 80%;
+    padding-left: 5%;
+  }
+
+  .team .team-c button {
+    width: 150px;
+    height: 40px;
+  }
+
+  .team .team-c h1 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .team .team-c .name2 .img2 {
+    width: 40px;
+    height: 40px;
+  }
+
+  .team .team-c .name2 .c {
+    font-size: 12px;
+  }
+}

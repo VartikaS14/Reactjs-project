@@ -31,3 +31,70 @@
   font-size: 15px;
   line-height: 20px;
 }
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .parts {
+    flex-direction: column; /* Stack items vertically */
+    height: auto;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .parts .imag, .parts .cont {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .parts .cont {
+    padding-top: 20px;
+  }
+
+  .parts .cont h1 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .parts .cont .p1 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .parts .cont .p2 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 962px) {
+  .parts {
+    flex-direction: column; /* Stack items vertically for medium screens */
+    height: auto;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .parts .imag, .parts .cont {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .parts .cont {
+    padding-top: 20px;
+  }
+
+  .parts .cont h1 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .parts .cont .p1 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .parts .cont .p2 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+

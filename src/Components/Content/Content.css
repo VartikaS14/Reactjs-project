@@ -5,13 +5,53 @@
   align-items: center;
   z-index: 10;
 }
+
 .content-container .content-title {
   font-size: 35px;
   line-height: 60px;
   color: #ffffff;
 }
+
 .content-container .content-description {
   font-size: 15px;
   line-height: 26px;
   color: #ffffff;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .content-container {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .content-container .content-title {
+    font-size: 28px;
+    line-height: 45px;
+    padding-bottom: 8px;
+  }
+
+  .content-container .content-description {
+    font-size: 14px;
+    line-height: 22px;
+    padding-bottom: 13px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 962px) {
+  .content-container {
+    width: 80%;
+  }
+
+  .content-container .content-title {
+    font-size: 32px;
+    line-height: 50px;
+    padding-bottom: 8px;
+  }
+
+  .content-container .content-description {
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 13px;
+  }
 }

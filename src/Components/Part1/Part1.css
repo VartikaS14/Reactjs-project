@@ -1,35 +1,110 @@
 .part {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
   height: 56vh;
   background-color: white;
   gap: 10%;
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
 }
+
 .part .imag {
   width: 40%;
 }
+
 .part .imag img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
 .part .cont {
   margin-left: 10%;
   padding-top: 80px;
   width: 40%;
 }
+
 .part .cont h1 {
   font-size: 15px;
   line-height: 26px;
   text-transform: uppercase;
 }
+
 .part .cont .p1 {
   font-size: 15px;
   line-height: 28px;
   padding-bottom: 20px;
 }
+
 .part .cont .p2 {
   font-size: 15px;
   line-height: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .part {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .part .imag, .part .cont {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .part .cont {
+    padding-top: 20px;
+  }
+
+  .part .cont h1 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .part .cont .p1 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .part .cont .p2 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 962px) {
+  .part {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .part .imag, .part .cont {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .part .cont {
+    padding-top: 20px;
+  }
+
+  .part .cont h1 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .part .cont .p1 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .part .cont .p2 {
+    font-size: 14px;
+    line-height: 22px;
+  }
 }

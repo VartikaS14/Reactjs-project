@@ -6,8 +6,8 @@ const Part = () => {
   return (
     <div className="parts" id="part">
       <div className="imag">
-        {" "}
-        <img src={part1} />{" "}
+        
+        <img src={part1} />
       </div>
       <div className="cont">
         <h1>A heading is what you need here</h1>
